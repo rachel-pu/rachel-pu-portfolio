@@ -1,0 +1,45 @@
+@font-face{
+    font-family: BethEllen;
+    src: url(/public/fonts/Beth_Ellen/BethEllen-Regular.ttf);
+}
+
+@font-face{
+    font-family: InterTight-Medium;
+    src: url(/public/fonts/Inter_Tight/static/InterTight-Medium.ttf);
+}
+
+@font-face{
+    font-family: InterTight-Bold;
+    src: url(/public/fonts/Inter_Tight/static/InterTight-Bold.ttf);
+}
+
+@font-face{
+    font-family: InterTight-ExtraBold;
+    src: url(/public/fonts/Inter_Tight/static/InterTight-ExtraBold.ttf);
+}
+
+@font-face{
+    font-family: InterTight-Black;
+    src: url(/public/fonts/Inter_Tight/static/InterTight-Black.ttf);
+}
+
+@font-face{
+    font-family: InterTight-SemiBold;
+    src: url(/public/fonts/Inter_Tight/static/InterTight-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Liga-Sans-Bold;
+    src: url("/public/fonts/LigaSans-Bold.otf");
+}
+
+html{
+    scroll-snap-type: y mandatory;
+    background-color: #f9f6e7;
+}
+
+footer{
+    text-align: center;
+    font-family: InterTight-Medium;
+    padding: 30px;
+}
