@@ -29,7 +29,7 @@ function Home() {
 
             {/* -------------------------- footer --------------------------- */}
             <footer>
-                <p>Made with ❤ by Rachel Pu using React</p>
+                <p>Made with ❤ by Rachel Pu using React and Material UI</p>
             </footer>
         </div>
     );

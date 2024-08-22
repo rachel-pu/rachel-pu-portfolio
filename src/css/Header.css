@@ -1,0 +1,102 @@
+.menu-icon-button:hover {
+    cursor: pointer;
+}
+
+.home-main-header {
+    color: #1e1d1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #f9f6e7;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+.home-main-header h1{
+    padding: 3.5% 0 0 3.5%;
+    font-family: BethEllen;
+    font-size: 31px;
+    animation: fade-up 0.75s;
+    margin-bottom: -7%;
+}
+
+.Typewriter {
+    font-size: 200px !important;
+    font-family: Liga-Sans-Bold;
+    padding: 4.5% 0 0 4.5%;
+}
+
+.short-description-home{
+    animation: fade-up 1s;
+    font-size: 37px;
+    font-family: Liga-Sans-Bold;
+    margin-top: 0.5%;
+    width: 50%;
+    /*width: 710px;*/
+}
+
+
+
+/* when screen size changes, these are the changes*/
+@media (max-width: 1400px) {
+    .short-description-home{
+        font-size: 37px;
+        width: 62%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .home-main-header h1 {
+        font-size: 28px;
+    }
+    .Typewriter {
+        font-size: 180px !important;
+    }
+    .short-description-home{
+        font-size: 30px;
+        width: 60%;
+    }
+}
+
+@media (max-width: 992px) {
+    .home-main-header h1 {
+        font-size: 24px;
+    }
+    .Typewriter {
+        font-size: 150px !important;
+    }
+    .short-description-home{
+        font-size: 25px;
+        width: 65%;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-main-header h1 {
+        font-size: 20px;
+    }
+    .Typewriter {
+        font-size: 120px !important;
+        padding: 2.5% 0 0 2.5%;
+    }
+    .short-description-home{
+        font-size: 20px;
+        width: 70%;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-main-header h1 {
+        font-size: 15px;
+    }
+    .Typewriter {
+        font-size: 90px !important;
+        padding: 3.5% 0 0 3.5%;
+    }
+    .short-description-home{
+        font-size: 18px;
+        width: 80%;
+    }
+}
