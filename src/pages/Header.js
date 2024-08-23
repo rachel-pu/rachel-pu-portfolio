@@ -16,10 +16,12 @@ function Header(){
     const closeMenu = () => {
         setAnchorNav(null);
     }
+
     return (
-        <>
+        <div id="home">
         {/*// navbar*/}
-        <AppBar position='static' elevation={0} sx={{ backgroundColor: '#F9F6E9', boxShadow: 'none', color: 'black' }}>            <Toolbar>
+        <AppBar position='static' elevation={0} sx={{ backgroundColor: '#F9F6E9', boxShadow: 'none', color: 'black' }}>
+            <Toolbar>
                 <IconButton size = 'large' edge='start' color='inherit' aria-label='logo' sx={{display:{xs:'none', md:'flex'}}}>
                     <StarIcon/>
                 </IconButton>
@@ -58,6 +60,7 @@ function Header(){
     {/* header text box */}
     <div className="home-main-header" id="home">
         <h1>hello! i'm</h1>
+        {/* typewriter animation */}
         <Typewriter
                 onInit={(typewriter) => {
                     typewriter.typeString('Rachel Pu')
@@ -70,56 +73,84 @@ function Header(){
                         .start();
                 }}/>
 
+        {/* short description */}
         <h2 className="short-description-home">I'm an undergraduate student at the <span
             style={{color: "#F86B1CFF"}}>University</span> of <span style={{color: "#3674E0"}}>Florida. </span>
             I enjoy building all sorts of applications while exploring AI's potential.</h2>
 
-        <Box>
-        <Grid container spacing={1.5} className="header-social-media">
+        {/* buttons div box */}
+        <Box className = "buttons">
+        <Grid container spacing={1.5}>
             <Grid item>
-                <Button endIcon = {<DownloadIcon/>}
-                        sx={{
+                {/* download button */}
+                <Button
+                    endIcon={<DownloadIcon />}
+                    sx={{
+                        backgroundColor: "#282c34",
+                        color: "#F9F6E9",
+                        padding: "10px",
+                        borderRadius: "20px",
+                        width: "200px",
+                        boxShadow: '0px 1px 4px rgba(51, 68, 31, 0.37)',
+                        transition: "transform 0.25s ease-in-out",
+                        '&:hover': {
                             backgroundColor: "#282c34",
-                            color: "#F9F6E9",
-                            padding: "10px",
-                            borderRadius: "20px",
-                            width: "200px",
-                            boxShadow: '0px 1px 4px rgba(51, 68, 31, 0.37)',
-                            transition: "transform 0.25s ease-in-out",
-                            '&:hover': {
-                                backgroundColor: "#282c34",
-                                transform: "scale(1.05)"
-                            }}}>
-                    <Typography sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none'}}>Resume / CV</Typography>
-                </Button></Grid>
+                            transform: "scale(1.05)"
+                        }
+                    }}
+                >
+                    <a
+                        href="/files/Rachel_Pu_Resume.pdf"
+                        download="Rachel_Pu_Resume.pdf"
+                        style={{
+                            textDecoration: 'none',
+                            color: 'inherit'}}
+                    >
+                        <Typography sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none', fontSize: "1rem" }}>
+                            Resume / CV
+                        </Typography>
+                    </a>
+                </Button>
+            </Grid>
+
+            {/* github button*/}
             <Grid item>
-                <IconButton sx={{
+                <IconButton
+                    href="https://github.com/rachel-pu"
+                    sx={{
                     backgroundColor: 'white',
+                    color: 'inherit',
                     fontSize: '175%',
                     boxShadow: '0px 1px 4px rgba(51, 68, 31, 0.37)',
                     '&:hover': {
-                        backgroundColor: "#282c34",
+                        backgroundColor: "#e78c5b",
                         transform: "scale(1.05)"
                 }}}>
                     <BsGithub className="icon" />
                 </IconButton>
             </Grid>
+
+            {/* linkedin button */}
             <Grid item>
-                <IconButton sx={{
+                <IconButton
+                    href="https://www.linkedin.com/in/rachel-pu-ufl/"
+                    sx={{
                     backgroundColor: 'white',
+                    color: 'inherit',
                     fontSize: '175%',
                     boxShadow: '0px 1px 4px rgba(51, 68, 31, 0.37)',
                     '&:hover': {
-                        backgroundColor: "#282c34",
+                        backgroundColor: "#658ae7",
                         transform: "scale(1.05)"
                 }}}>
                     <BsLinkedin className="icon" />
                 </IconButton>
-            </Grid>        </Grid>
+            </Grid>
+        </Grid>
         </Box>
 
         </div>
-    </>
+    </div>
 
     );
 
