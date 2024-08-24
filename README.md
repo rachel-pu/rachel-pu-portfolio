@@ -1,4 +1,5 @@
-**Rachel Pu's Portfolio**
+# Rachel Pu's Portfolio
+Hello! This is my repository holding my personal website. This project utilizes React.js and Material UI.
 
-**Credits**
+# Credits
 Timeline animation @tutsplus on Codepen.io
