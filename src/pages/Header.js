@@ -41,12 +41,12 @@ function Header(){
                     <MenuIcon />
                 </IconButton>
                 <Menu anchorEl={anchorNav} open={Boolean(anchorNav)} onClose={closeMenu}>
-                    <MenuItem onClick={closeMenu} component={HashLink} to='#home'>Home</MenuItem>
-                    <MenuItem onClick={closeMenu} component={HashLink} to='#about'>About</MenuItem>
-                    <MenuItem onClick={closeMenu} component={HashLink} to='#experience'>Experience</MenuItem>
-                    <MenuItem onClick={closeMenu} component={HashLink} to='#projects'>Projects</MenuItem>
-                    <MenuItem onClick={closeMenu} component={HashLink} to='#extracurriculars'>Extracurriculars</MenuItem>
-                    <MenuItem onClick={closeMenu} component={HashLink} to='#contact'>Contact</MenuItem>
+                    <MenuItem onClick={closeMenu} component={HashLink} to='#home' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Home</MenuItem>
+                    <MenuItem onClick={closeMenu} component={HashLink} to='#about' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>About</MenuItem>
+                    <MenuItem onClick={closeMenu} component={HashLink} to='#experience' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Experience</MenuItem>
+                    <MenuItem onClick={closeMenu} component={HashLink} to='#projects' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Projects</MenuItem>
+                    <MenuItem onClick={closeMenu} component={HashLink} to='#extracurriculars' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Extracurriculars</MenuItem>
+                    <MenuItem onClick={closeMenu} component={HashLink} to='#contact' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Contact</MenuItem>
                 </Menu>
 
                     <IconButton size = 'large' edge='start' color='inherit' aria-label='logo' sx={{display:{xs:'flex', md:'none'}}}>
@@ -122,6 +122,7 @@ function Header(){
                     color: 'inherit',
                     fontSize: '175%',
                     boxShadow: '0px 1px 4px rgba(51, 68, 31, 0.37)',
+                    transition: "transform 0.25s ease-in-out, background-color 0.25s ease-in-out",
                     '&:hover': {
                         backgroundColor: "#e78c5b",
                         transform: "scale(1.05)"
@@ -139,6 +140,7 @@ function Header(){
                     color: 'inherit',
                     fontSize: '175%',
                     boxShadow: '0px 1px 4px rgba(51, 68, 31, 0.37)',
+                    transition: "transform 0.25s ease-in-out, background-color 0.25s ease-in-out",
                     '&:hover': {
                         backgroundColor: "#658ae7",
                         transform: "scale(1.05)"

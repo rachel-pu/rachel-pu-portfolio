@@ -52,7 +52,8 @@
 
 @media (max-width: 1200px) {
     .home-main-header h1 {
-        font-size: 28px;
+        font-size: 27px;
+        margin-top: 8%;
     }
     .Typewriter {
         font-size: 180px !important;
@@ -64,42 +65,42 @@
 }
 
 @media (max-width: 992px) {
-    .home-main-header h1 {
-        font-size: 24px;
+    .home-main-header h1{
+        margin-top: 12%;
     }
     .Typewriter {
         font-size: 150px !important;
     }
     .short-description-home{
-        font-size: 25px;
-        width: 65%;
+        font-size: 27px;
+        width: 70%;
     }
 }
 
 @media (max-width: 768px) {
-    .home-main-header h1 {
-        font-size: 20px;
+    .home-main-header h1{
+        margin-top: 20%;
     }
     .Typewriter {
         font-size: 120px !important;
         padding: 2.5% 0 0 2.5%;
     }
     .short-description-home{
-        font-size: 20px;
-        width: 70%;
+        font-size: 27px;
+        width: 77%;
     }
 }
 
 @media (max-width: 576px) {
-    .home-main-header h1 {
-        font-size: 15px;
+    .home-main-header h1{
+        margin-top: 30%;
     }
     .Typewriter {
-        font-size: 90px !important;
+        font-size: 95px !important;
         padding: 3.5% 0 0 3.5%;
     }
     .short-description-home{
-        font-size: 18px;
+        font-size: 25px;
         width: 80%;
     }
 }

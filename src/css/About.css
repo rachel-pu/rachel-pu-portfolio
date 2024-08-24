@@ -1,0 +1,46 @@
+.about-me{
+    height: 100vh;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+.about-me-description{
+    font-size: 1.45rem;
+}
+
+.rachel-image{
+    width: 58vh;
+}
+
+/* when screen size changes, these are the changes*/
+@media (max-width: 1400px) {
+    .about-me-description{
+        font-size: 1.35rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-me-description{
+        font-size: 1.25rem;
+    }
+    .rachel-image{
+        width: 50vh;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .about-me-description{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+    .rachel-image{
+        width: 40vh;
+    }
+}
+

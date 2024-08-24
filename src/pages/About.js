@@ -1,15 +1,23 @@
+import '../css/About.css';
 import React from 'react';
-import {Grid} from "@mui/material";
+import {Grid, Typography, useMediaQuery, Box} from "@mui/material";
 
 function About(){
+
+    const isHalfScreen = useMediaQuery('(max-width:992px)');
+
     return (
         <div className="about-page" id="about">
-            <Grid container spacing={1}>
-
+            <Grid container
+                  spacing={5}
+                  direction={isHalfScreen ? 'column' : 'row'}
+                  sx={{paddingLeft: '10%', paddingRight: '10%'}}>
                 {/* about me description*/}
-                <Grid item>
-                    <h1>About Me</h1>
-                    <p> I'm an undergrad pursuing a B.S. in
+                <Grid item xs >
+                    {/* header */}
+                    <Typography variant="h2" sx={{fontFamily:'Liga-Sans-Bold'}}>About Me</Typography>
+                    {/* description */}
+                    <Typography className = "about-me-description" sx={{fontFamily: 'InterTight-Medium', lineHeight:'1.5'}}> I'm an undergrad pursuing a B.S. in
                         <span style={{color: "#799842", fontFamily:"Liga-Sans-Bold"}}> Computer Science</span>, minor in
                         <span style={{color: "#799842", fontFamily:"Liga-Sans-Bold"}}> Digital Arts & Sciences</span>, and UF's Certificate in
                         <span style={{color: "#799842", fontFamily:"Liga-Sans-Bold"}}> AI Fundamentals and Applications. </span>
@@ -24,12 +32,14 @@ function About(){
                         <span style={{color: "#799842", fontFamily:"Liga-Sans-Bold"}}> varsity lion dancer</span>!
                         <br/>
                         <br/>
-                    </p>
+                    </Typography>
                 </Grid>
-                {/* about me image*/}
-                <Grid item>
 
-                </Grid>
+                {/* about me image*/}
+                <Grid item xs>
+                    <Box display="flex" justifyContent="center" alignItems="center" height="100%">
+                        <img className="rachel-image" src='/files/unnamed.jpg' />
+                    </Box>                </Grid>
             </Grid>
         </div>
     );
