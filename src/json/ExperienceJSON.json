@@ -1,0 +1,64 @@
+[
+    {
+        "title": "Web Development Intern",
+        "companyLocation": "Veterans Affairs Digital Media Engagement Team | Remote",
+        "date": "Sep. 2024 - Present",
+        "description": [
+            "Creative Direction, User Experience, Visual Design, SEO, Online Marketing"
+        ],
+        "skills": {
+            "skill1": "Creative Direction",
+            "skill2": "User Experience",
+            "skill3": "Visual Design",
+            "skill4": "Project Management"
+        },
+        "type": "work"
+    },
+    {
+        "title": "SWE Undergraduate Researcher",
+        "companyLocation": "University of Florida CISE | Gainesville, FL",
+        "date": "Aug. 2024 - Present",
+        "description": [
+            "Creative Direction, User Experience, Visual Design, Project Management, Team Leading"
+        ],
+        "skills": {
+            "skill1": "Creative Direction",
+            "skill2": "User Experience",
+            "skill3": "Visual Design",
+            "skill4": "Project Management"
+        },
+        "type": "research"
+    },
+    {
+        "title": "AI Researcher - FINS Clearable Talent Program",
+        "companyLocation": "Florida Institute of National Security (FINS) | Gainesville, FL",
+        "date": "Mar. 2024 - Present",
+        "description": [
+            "Conducting a literature review on existing explainable AI (XAI) methods to identify gaps and opportunities.",
+            "Developing a tabular framework for reporting and communicating ”explainability needs” in XAI."
+        ],
+        "skills": {
+            "skill1": "Creative Direction",
+            "skill2": "User Experience",
+            "skill3": "Visual Design",
+            "skill4": "Project Management"
+        },
+        "type": "research"
+    },
+    {
+        "title": "UPS Engineering Intern",
+        "companyLocation": "United Parcel Service (UPS) | Singapore, SG",
+        "date": "Jun. 2024 - Aug. 2024",
+        "description": [
+            "Revamped SV postal code filing system using Python and Pandas, achieving a 95%+ reduction in data processing time across 400,000+ unique country records",
+            "Optimized a supply inventory management system (SIMS) for deployment across the UPS APAC region, enhancing database connectivity, inventory customization, and regional needs"
+        ],
+        "skills": {
+            "skill1": "Creative Direction",
+            "skill2": "User Experience",
+            "skill3": "Visual Design",
+            "skill4": "Project Management"
+        },
+        "type": "work"
+    }
+]

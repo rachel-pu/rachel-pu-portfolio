@@ -1,3 +1,57 @@
 .experience-page{
     height: 200vh;
 }
+
+.title-text{
+    font-size: 2.8rem !important;
+    font-family: Liga-Sans-Bold !important;
+    font-weight: bold !important;
+    margin-bottom: -18px !important;
+}
+
+.duration-text{
+    font-size: 20px !important;
+    font-family: InterTight-Medium !important;
+    color: rgba(61, 61, 61, 0.7)!important;
+    margin-bottom: -10px !important;
+}
+
+.company-location-text{
+    font-size: 1.25rem !important;
+    font-family: InterTight-Medium !important;
+    margin-bottom: -15px !important;
+    color: rgba(61, 61, 61, 0.7) !important;
+
+}
+
+.description-text{
+    font-size: 20px !important;
+    font-family: InterTight-Medium !important;
+}
+
+.bullet-point {
+    color: #212121;
+    /*font-size: 2rem;*/
+}
+
+/* timeline */
+.timeline-elements{
+    padding: 0 20px 0 20px;
+    /*background-color: red;*/
+    margin: -3% 0 -1% 0;
+}
+
+.vertical-timeline::before {
+    background: #1e1d1d !important;
+}
+
+.vertical-timeline-element-icon {
+    box-shadow: none !important;
+    border: 3px solid #1e1d1d;
+}
+
+.vertical-timeline-element-content {
+    background: #f9f6e7 !important;
+    box-shadow: none !important;
+    border: 3px solid #1e1d1d;
+}
