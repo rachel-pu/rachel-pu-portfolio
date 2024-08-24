@@ -7,17 +7,20 @@ function About(){
     const isHalfScreen = useMediaQuery('(max-width:992px)');
 
     return (
-        <div className="about-page" id="about">
+        <Box className="about-page" id="about" display="flex" justifyContent="center" alignItems="center">
             <Grid container
                   spacing={5}
                   direction={isHalfScreen ? 'column' : 'row'}
-                  sx={{paddingLeft: '10%', paddingRight: '10%'}}>
+                  rowSpacing={1}
+                  sx={{paddingLeft: '5%', paddingRight: '5%'}}>
                 {/* about me description*/}
                 <Grid item xs >
                     {/* header */}
                     <Typography variant="h2" sx={{fontFamily:'Liga-Sans-Bold'}}>About Me</Typography>
+
                     {/* description */}
-                    <Typography className = "about-me-description" sx={{fontFamily: 'InterTight-Medium', lineHeight:'1.5'}}> I'm an undergrad pursuing a B.S. in
+                    <Typography className = "about-me-description" sx={{fontFamily: 'InterTight-Medium', lineHeight:'1.5'}}>
+                        I'm an undergrad pursuing a B.S. in
                         <span style={{color: "#799842", fontFamily:"Liga-Sans-Bold"}}> Computer Science</span>, minor in
                         <span style={{color: "#799842", fontFamily:"Liga-Sans-Bold"}}> Digital Arts & Sciences</span>, and UF's Certificate in
                         <span style={{color: "#799842", fontFamily:"Liga-Sans-Bold"}}> AI Fundamentals and Applications. </span>
@@ -39,9 +42,10 @@ function About(){
                 <Grid item xs>
                     <Box display="flex" justifyContent="center" alignItems="center" height="100%">
                         <img className="rachel-image" src='/files/unnamed.jpg' />
-                    </Box>                </Grid>
+                    </Box>
+                </Grid>
             </Grid>
-        </div>
+        </Box>
     );
 
 }

@@ -58,7 +58,7 @@ function Header(){
         </AppBar>
 
     {/* header text box */}
-    <div className="home-main-header" id="home">
+    <Box className="home-main-header" id="home" >
         <h1>hello! i'm</h1>
         {/* typewriter animation */}
         <Typewriter
@@ -151,7 +151,7 @@ function Header(){
         </Grid>
         </Box>
 
-        </div>
+        </Box>
     </div>
 
     );

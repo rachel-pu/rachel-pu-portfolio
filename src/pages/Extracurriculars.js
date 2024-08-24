@@ -2,7 +2,9 @@ import React from 'react';
 
 function Extracurriculars(){
     return (
-        <div className="extracurriculars-page" id="extracurriculars"></div>
+        <div className="extracurriculars-page" id="extracurriculars">
+
+        </div>
     );
 
 }
