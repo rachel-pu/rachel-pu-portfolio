@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Pig E-Bank",
+    "icon": "FaPiggyBank",
+    "link": "https://github.com/Lyra126/pigE-bank",
+    "description": "This application encourages finance management by integrating financial tracking with gamification, transforming money saving into a fun and rewarding experience through piggy bank evolutions.",
+    "skills": ["React.js", "JavaScript", "MongoDB", "Java"],
+    "aosDuration": 1250
+  },
+  {
+    "name": "WiNG.it",
+    "icon": "GiLibertyWing",
+    "description": "Submission to WiNGHack 2024 and Winner of Best Project made by First-Time Hackers!",
+    "skills": ["Python", "Flask", "JavaScript", "HTML/CSS"],
+    "aosDuration": 2000
+  },
+  {
+    "name": "Pawsitively Boba",
+    "icon": "LuCupSoda",
+    "description": "This application encourages finance management by integrating financial tracking with gamification, transforming money saving into a fun and rewarding experience through piggy bank evolutions.",
+    "skills": ["Godot", "Discord Embedded SDK"],
+    "aosDuration": 2500
+  },
+  {
+    "name": "Spottingfy",
+    "icon": "FaSpotify",
+    "description": "This application encourages finance management by integrating financial tracking with gamification, transforming money saving into a fun and rewarding experience through piggy bank evolutions.",
+    "skills": ["C++", "Spotify Web API"],
+    "aosDuration": 1250
+  },
+  {
+    "name": "Vibe Check",
+    "icon": "LuCupSoda",
+    "description": "This application encourages finance management by integrating financial tracking with gamification, transforming money saving into a fun and rewarding experience through piggy bank evolutions.",
+    "skills": ["HTML/CSS", "JavaScript", "MongoDB"],
+    "aosDuration": 2000
+  }
+]

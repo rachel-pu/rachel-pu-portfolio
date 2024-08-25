@@ -1,0 +1,14 @@
+.projects-page{
+    height: 120vh;
+    padding: 3%;
+}
+
+.project-grid{
+    margin-top: 20px;
+}
+
+.project-card{
+    padding: 10px;
+    height: 220px;
+    overflow: auto;
+}
