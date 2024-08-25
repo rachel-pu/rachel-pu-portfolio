@@ -6,7 +6,8 @@
     font-size: 2.8rem !important;
     font-family: Liga-Sans-Bold !important;
     font-weight: bold !important;
-    margin-bottom: -18px !important;
+    margin-bottom: -8px !important;
+    line-height: 1 !important;
 }
 
 .duration-text{
@@ -31,8 +32,8 @@
 
 .bullet-point {
     color: #212121;
-    /*font-size: 2rem;*/
 }
+
 
 /* timeline */
 .timeline-elements{
@@ -54,4 +55,80 @@
     background: #f9f6e7 !important;
     box-shadow: none !important;
     border: 3px solid #1e1d1d;
+}
+
+/* when screen size changes, these are the changes*/
+@media (max-width: 1400px) {
+    .title-text{
+        font-size: 2.6rem !important;
+    }
+    .duration-text{
+        font-size: 18px !important;
+    }
+    .company-location-text{
+        font-size: 1.2rem !important;
+    }
+    .description-text{
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title-text{
+        font-size: 2.4rem !important;
+    }
+    .duration-text{
+        font-size: 16px !important;
+    }
+    .company-location-text{
+        font-size: 1.1rem !important;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .title-text{
+        font-size: 2.2rem !important;
+    }
+    .duration-text{
+        font-size: 1rem !important;
+    }
+    .company-location-text{
+        font-size: 1rem !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .title-text{
+        font-size: 2rem !important;
+    }
+    .duration-text{
+        font-size: 0.9rem !important;
+    }
+    .company-location-text{
+        font-size: 0.9rem !important;
+    }
+    .description-text{
+        font-size: 16.5px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .timeline-elements{
+        padding: 0 10px 0 10px;
+        /*background-color: red;*/
+    }
+    .title-text{
+        font-size: 2rem !important;
+    }
+    .duration-text{
+        font-size: 0.85rem !important;
+    }
+    .company-location-text{
+        font-size: 0.85rem !important;
+    }
+    .description-text{
+        font-size: 15px !important;
+    }
 }
