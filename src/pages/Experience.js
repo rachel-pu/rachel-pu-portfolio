@@ -7,7 +7,7 @@ import experienceList from '../json/ExperienceJSON.json';
 
 function Experience() {
     return (
-        <div className="experience-page" id="experience">
+        <Box className="experience-page" id="experience">
             <Typography variant='h2' sx={{fontFamily:'Liga-Sans-Bold', textAlign: 'center'}}>Experience</Typography>
             <VerticalTimeline
                 className = "timeline"
@@ -45,7 +45,7 @@ function Experience() {
                 ))}
 
             </VerticalTimeline>
-        </div>
+        </Box>
     );
 }
 

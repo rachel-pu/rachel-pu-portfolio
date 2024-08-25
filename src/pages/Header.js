@@ -45,7 +45,6 @@ function Header(){
                     <MenuItem onClick={closeMenu} component={HashLink} to='#about' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>About</MenuItem>
                     <MenuItem onClick={closeMenu} component={HashLink} to='#experience' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Experience</MenuItem>
                     <MenuItem onClick={closeMenu} component={HashLink} to='#projects' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Projects</MenuItem>
-                    {/*<MenuItem onClick={closeMenu} component={HashLink} to='#extracurriculars' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Extracurriculars</MenuItem>*/}
                     <MenuItem onClick={closeMenu} component={HashLink} to='#contact' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Contact</MenuItem>
                 </Menu>
 

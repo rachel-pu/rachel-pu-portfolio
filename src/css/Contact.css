@@ -1,0 +1,15 @@
+.contact-page {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contact-description{
+    font-size: 1.45rem !important;
+    margin-top: 5%;
+    font-family: InterTight-Medium !important;
+}
+
+.label{
+    font-size: 1.45rem !important;
+    font-family: InterTight-Medium !important;
+}
