@@ -4,7 +4,7 @@ import About from './About';
 import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contact';
-import Extracurriculars from "./Extracurriculars";
+// import Extracurriculars from "./Extracurriculars";
 import '../css/index.css'
 // import { timelineAnimation } from '../js/TimelineAnimation';
 
@@ -24,7 +24,7 @@ function Home() {
             <About/> {/* about page */}
             <Experience/> {/* experience page */}
             <Projects/> {/* projects page */}
-            <Extracurriculars/> {/* extracurriculars page */}
+            {/*<Extracurriculars/> /!* extracurriculars page - TBD *!/*/}
             <Contact/> {/* contact page */}
 
             {/* -------------------------- footer --------------------------- */}

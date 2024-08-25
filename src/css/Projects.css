@@ -1,14 +1,29 @@
 .projects-page{
     height: 120vh;
-    padding: 3%;
+    padding: 3% ;
 }
 
 .project-grid{
-    margin-top: 20px;
+    margin-top: 20px !important;
+}
+
+.project-title{
+    font-size: 40px !important;
+    font-family: Liga-Sans-Bold !important;
+    font-weight: bold !important;
+    font-variant-ligatures: no-common-ligatures !important;
+}
+
+.project-description{
+    font-size: 18px !important;
+    font-family: InterTight-Medium !important;
+    color: rgba(61, 61, 61, 0.7);
 }
 
 .project-card{
-    padding: 10px;
-    height: 220px;
-    overflow: auto;
+    padding: 10px !important;
+    height: 300px !important;
+    box-shadow: none !important;
+    border: #1e1d1d 2px solid;
+    border-radius: 15px;
 }

@@ -32,7 +32,7 @@ function Header(){
                 <Button color='inherit' component={HashLink} to='#about' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>About</Button>
                 <Button color='inherit' component={HashLink} to='#experience' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Experience</Button>
                 <Button color='inherit' component={HashLink} to='#projects' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Projects</Button>
-                <Button color='inherit' component={HashLink} to='#extracurriculars' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Extracurriculars</Button>
+                {/*<Button color='inherit' component={HashLink} to='#extracurriculars' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Extracurriculars</Button>*/}
                 <Button color='inherit' component={HashLink} to='#contact' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Contact</Button>
             </Box>
 
@@ -45,7 +45,7 @@ function Header(){
                     <MenuItem onClick={closeMenu} component={HashLink} to='#about' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>About</MenuItem>
                     <MenuItem onClick={closeMenu} component={HashLink} to='#experience' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Experience</MenuItem>
                     <MenuItem onClick={closeMenu} component={HashLink} to='#projects' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Projects</MenuItem>
-                    <MenuItem onClick={closeMenu} component={HashLink} to='#extracurriculars' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Extracurriculars</MenuItem>
+                    {/*<MenuItem onClick={closeMenu} component={HashLink} to='#extracurriculars' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Extracurriculars</MenuItem>*/}
                     <MenuItem onClick={closeMenu} component={HashLink} to='#contact' sx={{ fontFamily: 'InterTight-Medium', textTransform: 'none' }}>Contact</MenuItem>
                 </Menu>
 

@@ -1,7 +1,8 @@
 import React from 'react';
-import {Card, CardContent, Grid, Box, Typography} from "@mui/material";
+import {Card, CardContent, Grid, Box, Typography, IconButton} from "@mui/material";
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import projectsList from '../json/ProjectsJSON.json';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import "../css/Projects.css";
 
 function Projects(){
@@ -11,25 +12,32 @@ function Projects(){
             <Grid container spacing={2} className = "project-grid">
                 {projectsList.map((project, index) => (
                     <Grid item xs={12} sm={6} md={4} key={index}>
-                        <Card className = "project-card">
-                            <CardActionArea>
+                        <Card className = "project-card" >
                                 <CardContent>
-                                    <Typography variant="h5" component="div">
-                                        {project.name}
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        {project.description}
-                                    </Typography>
+                                    {/* project title */}
+                                    <Typography component="div" className = "project-title">{project.name}</Typography>
+                                    {/* project description*/}
+                                    <Typography className = "project-description">{project.description}</Typography>
                                 </CardContent>
 
+                                {/* project skills */}
                                 <CardActions>
                                     {project.skills.map((skill, index) => (
-                                        <Button key={index} size="small" color="primary">
-                                            {skill}
-                                        </Button>
+                                        <Grid  xs="auto">
+                                            <Grid item>
+                                                <Button disabled key={index} size="small" variant="contained" disableElevation>
+                                                    <Typography variant="body" sx={{fontFamily: "InterTight-Medium"}}>{skill}</Typography>
+                                                </Button>
+                                            </Grid>
+                                        </Grid>
                                     ))}
                                 </CardActions>
-                            </CardActionArea>
+
+                                <CardActions>
+                                    <IconButton onClick={() => window.open(project.github, '_blank')}>
+                                        <GitHubIcon sx={{fontSize: '2rem'}}/>
+                                    </IconButton>
+                                </CardActions>
                         </Card>
                     </Grid>
                 ))}
